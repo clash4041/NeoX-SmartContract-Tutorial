@@ -1,6 +1,3 @@
-# NeoX-SmartContract-Tutorial
-A tutorial on how to create and deploy a smart contract on Neo X.
-
 How to Create a Smart Contract on Neo X
 
 Author: Ujjwal
@@ -76,7 +73,7 @@ public class NeoXToken : SmartContract
         if (fromBalance < amount) return false;
 
         Balances.Put(from, fromBalance - amount);
-        BigInteger toBalance = (BigInteger)Balances.Get(to);   
+        BigInteger toBalance = (BigInteger)Balances.Get(to);
         Balances.Put(to, toBalance + amount);
 
         return true;
