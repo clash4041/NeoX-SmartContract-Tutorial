@@ -96,26 +96,3 @@ https://developers.neo.org/
 https://developers.neo.org/docs/n3/examples
 
 https://github.com/neo-project
-
-
-How to Submit on GitHub
-
-1. Create a GitHub repository.
-
-
-2. Upload the NeoX-Contract directory.
-
-
-3. Ensure README.md contains this tutorial.
-
-
-4. Share the GitHub link.
-
-
-
-🚀 Happy Coding!
-
-This version is **optimized for GitHub**, with proper formatting, code blocks, and a structured flow. Just copy and paste this into a `README.md` file and upload it to GitHub.  
-
-Do you need help with the GitHub upload process?
-
