@@ -23,7 +23,7 @@ cd NeoXToken
 dotnet add package Neo.SmartContract.Framework
 
 
-##Step 2: Writing the Smart Contract
+## Step 2: Writing the Smart Contract
 
 Create a new file NeoXToken.cs inside the NeoXToken directory and add the following code:
 
@@ -55,7 +55,7 @@ public class NeoXToken : SmartContract
     public static BigInteger BalanceOf(UInt160 address) => (BigInteger)Balances.Get(address);
 }
 
-##Step 3: Compiling the Smart Contract
+## Step 3: Compiling the Smart Contract
 
 Run the following command to compile the smart contract into .nef format:
 
@@ -63,7 +63,7 @@ dotnet build -c Release
 
 The compiled contract will be available in bin/Release/netstandard2.1/NeoXToken.nef.
 
-##Step 4: Deploying the Smart Contract
+## Step 4: Deploying the Smart Contract
 
 Using Neo Express (Local TestNet)
 
@@ -71,7 +71,7 @@ neo-express create
 neo-express run
 neo-express contract deploy NeoXToken.nef --wallet mywallet.json
 
-##Step 5: Interacting with the Smart Contract
+## Step 5: Interacting with the Smart Contract
 
 Checking Balance
 
@@ -81,7 +81,7 @@ Transferring Tokens
 
 neo-express contract invoke NeoXToken Transfer --wallet mywallet.json --args "[<from_address>, <to_address>, 10]"
 
-Conclusion
+##Conclusion
 
 You have successfully:
 ✅ Written a Neo X smart contract
