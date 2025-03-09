@@ -1,6 +1,8 @@
 How to Create a Smart Contract on Neo X  
-
 **Author:** Ujjwal   
+
+
+
 
 ## Introduction  
 This tutorial will guide you through **creating, deploying, and interacting** with a smart contract on **Neo X**. Smart contracts on Neo are written in **C#** and compiled into NeoVM-compatible bytecode.  
