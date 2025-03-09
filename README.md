@@ -1,4 +1,4 @@
-##How to Create a Smart Contract on Neo X  
+How to Create a Smart Contract on Neo X  
 
 **Author:** Ujjwal   
 
